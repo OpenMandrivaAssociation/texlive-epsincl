@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/epsincl
+# catalog-date 2008-08-19 20:15:24 +0200
+# catalog-license pd
+# catalog-version 0.2
 Name:		texlive-epsincl
 Version:	0.2
 Release:	1
@@ -44,6 +50,7 @@ figures; it makes use of (G)AWK.
 %doc %{_texmfdistdir}/doc/metapost/epsincl/testincl.bat
 %doc %{_texmfdistdir}/doc/metapost/epsincl/testincl.mp
 %doc %{_texmfdistdir}/doc/metapost/epsincl/testincl.sh
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ figures; it makes use of (G)AWK.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
