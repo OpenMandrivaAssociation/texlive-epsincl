@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29349
 # category Package
 # catalog-ctan /graphics/metapost/contrib/macros/epsincl
-# catalog-date 2008-08-19 20:15:24 +0200
+# catalog-date 2012-07-10 22:47:12 +0200
 # catalog-license pd
 # catalog-version 0.2
 Name:		texlive-epsincl
 Version:	0.2
-Release:	2
+Release:	3
 Summary:	Include EPS in MetaPost figures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/epsincl
@@ -51,17 +51,3 @@ figures; it makes use of (G)AWK.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 751519
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 718350
-- texlive-epsincl
-- texlive-epsincl
-- texlive-epsincl
-- texlive-epsincl
-
