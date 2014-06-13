@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-epsincl
 Version:	0.2
-Release:	7
+Release:	8
 Summary:	Include EPS in MetaPost figures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/epsincl
