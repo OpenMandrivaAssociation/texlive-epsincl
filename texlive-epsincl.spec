@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Include EPS in MetaPost figures
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/epsincl
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/epsincl
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/epsincl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/epsincl.doc.r%{version}.tar.xz
